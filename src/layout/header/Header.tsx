@@ -30,7 +30,7 @@ const StyledHeader=styled.header`
     justify-content: space-around;
     align-items: center;
     max-height: 60px;
-    border: 1px solid green;
+ 
     overflow: hidden;
    
    

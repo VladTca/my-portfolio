@@ -23,6 +23,11 @@ const StyledMenu = styled.nav`
         gap: 60px;
         justify-content: center;
         list-style: none;
+      
         
+    }
+    ul a{
+        
+        color: white;
     }
 `;

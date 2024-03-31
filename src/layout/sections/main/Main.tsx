@@ -4,8 +4,8 @@ import {FlexWrapper} from "../../../components/Slider/Flexwrapper";
 import photo from "../../../assets/images/support1.png";
 import {Button} from "../../../components/Slider/Button";
 import {Icon} from "../../../components/icon/Icon";
-import {Simulate} from "react-dom/test-utils";
-import resize = Simulate.resize;
+
+
 
 export const Main = () => {
     return (
@@ -60,7 +60,7 @@ const StyledMain = styled.main`
     height: calc(100vh - 60px);
     padding-top: 30px;
     margin-top: 50px;
-    border:1px solid transparent;
+  
 
 `
 const Photo = styled.img`
