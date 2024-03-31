@@ -8,7 +8,6 @@ const items = [
     "Home",
     "Skills",
     "Works",
-    "Testimony",
     "Contacts",
 
 ]
@@ -22,11 +21,17 @@ const items = [
 };
 
 const StyledHeader=styled.header`
+    position: fixed;
+    top: 0;
+    width: 100%;
+   margin-bottom: 60px;
     background-color: green;
     display: flex;
     justify-content: space-around;
     align-items: center;
     max-height: 60px;
     border: 1px solid green;
+    overflow: hidden;
+   
    
 `

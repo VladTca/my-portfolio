@@ -10,7 +10,5 @@ export const Logo = () => {
 const StyledLogo=styled.img`
     
     max-width: 200px;
-  
-    object-fit: cover;
     
 `;

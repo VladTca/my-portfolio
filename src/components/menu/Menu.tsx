@@ -20,7 +20,9 @@ export const Menu = (props: { menuItems: string[] }) => {
 const StyledMenu = styled.nav`
     ul {
         display: flex;
-        gap: 30px;
+        gap: 60px;
         justify-content: center;
+        list-style: none;
+        
     }
 `;
