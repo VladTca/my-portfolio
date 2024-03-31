@@ -24,7 +24,7 @@ const items = [
 const StyledHeader=styled.header`
     background-color: green;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     max-height: 60px;
     border: 1px solid green;

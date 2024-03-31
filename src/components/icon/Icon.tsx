@@ -1,5 +1,5 @@
 import React from 'react';
-import iconsSprite from '../../assets/images/icon-sprites.svg'
+import iconsSprite from '../../assets/images/icons-sprites1.svg'
 
 
 
