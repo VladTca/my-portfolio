@@ -23,7 +23,7 @@ const StyledMenu = styled.nav`
         gap: 60px;
         justify-content: center;
         list-style: none;
-      
+      margin-right: 50px;
         
     }
     ul a{

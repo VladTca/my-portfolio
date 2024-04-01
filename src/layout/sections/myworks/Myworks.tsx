@@ -9,7 +9,7 @@ import giticon from '../../../assets/images/Git-Icon-1788C 1.png'
 export const Myworks = () => {
     return (
         <StyledWorks>
-            <SectionTitle style={{padding: '20px 0 0 0'}}>
+            <SectionTitle style={{padding: '80px 0 0 0'}}>
                 My Projects
             </SectionTitle>
 
@@ -32,9 +32,10 @@ export const Myworks = () => {
 };
 
 const StyledWorks = styled.section`
-    min-height: 100vh;
+    
     background-color: deepskyblue;
-    height: calc(100vh - 60px - 130px);
+    height: 100vh;
+
 
 
 `
