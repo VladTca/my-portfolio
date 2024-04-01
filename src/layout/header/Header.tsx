@@ -7,7 +7,8 @@ import {Menu} from "../../components/menu/Menu";
 const items = [
     "Home",
     "Skills",
-    "Works",
+    "Projects",
+    "Achievements",
     "Contacts",
 
 ]
@@ -31,7 +32,6 @@ const StyledHeader=styled.header`
     
     align-items: center;
     height: 60px;
-//border-bottom: 1px solid black;
     overflow: hidden;
    
    

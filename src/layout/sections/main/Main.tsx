@@ -11,7 +11,7 @@ export const Main = () => {
             <FlexWrapper style={{height: "100%"}} align={"center"} justify={"space-around"} direction={"row"}>
                 <div style={{display: 'flex', flexDirection: 'column',alignItems: 'flex-start'}}>
                     <span>Hi👋, I’m a software developer</span>
-                    <NameVT>Vladimir Tcaciuc</NameVT>
+                    <NameVT>Mr. Woolfy</NameVT>
                     <NameVT>ready for</NameVT>
                     <MainTitle>Design, Coding and Testing.</MainTitle>
                     <StyledDescription>I have experience in web development and I am always looking for new things to

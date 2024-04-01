@@ -5,7 +5,7 @@ import styled from "styled-components";
 import {SliderR} from "../../../components/Slider/SliderR";
 import {SliderI} from "../../../components/Slider/SliderI";
 
-export const Achivments = () => {
+export const Achievements = () => {
     return (
         <StyledAchiv>
 

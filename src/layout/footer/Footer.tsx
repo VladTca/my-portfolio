@@ -48,18 +48,23 @@ export const Footer = () => {
                 <SocialItem>
                     <SocialLink>
                         <Icon height={'31px'} width={'31px'} viewBox={'0 0 31px 31px'} iconId={'githubsmall'}/>
-                        <Name>@VladTca on github</Name>
+                        <Name><Am style={{color: '#fff'}} href="https://cryptohub.p.goit.global/"
+                                 target="_blank">@VladTca</Am> on github</Name>
                     </SocialLink>
                 </SocialItem>
             </FlexWrapper>
 
-            <Copyright>© 2024 Vladimir Tcaciuc, All Rights Reserved.</Copyright>
+            <Copyright>© 2024 Mr. Woolfy, All Rights Reserved.</Copyright>
 
         </StyledFooter>
 
     );
 };
 
+
+const Am = styled.a`
+
+`
 
 const StyledFooter = styled.footer`
     display: flex;
@@ -91,8 +96,8 @@ const SocialLink = styled.a`
 
 `
 const Copyright = styled.small`
-position: absolute;
-bottom:10px;
+    position: absolute;
+    bottom: 10px;
     align-items: center
 
 `

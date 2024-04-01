@@ -5,7 +5,7 @@ import {Header} from "./layout/header/Header";
 import {Main} from "./layout/sections/main/Main";
 import {Footer} from "./layout/footer/Footer";
 import {Contact} from "./layout/sections/contacts/Contacts";
-import {Achivments} from "./layout/sections/achivments/Achivments";
+import {Achievements} from "./layout/sections/achivments/Achievements";
 import {Myworks} from "./layout/sections/myworks/Myworks";
 import {Skills} from "./layout/sections/skills/Skills";
 
@@ -17,7 +17,7 @@ function App() {
             <Main/>
             <Skills/>
             <Myworks/>
-            <Achivments/>
+            <Achievements/>
             <Contact/>
             <Footer/>
         </div>
