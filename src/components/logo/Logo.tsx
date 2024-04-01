@@ -10,5 +10,6 @@ export const Logo = () => {
 const StyledLogo=styled.img`
     
     max-width: 200px;
+    margin-left: 50px;
     
 `;
