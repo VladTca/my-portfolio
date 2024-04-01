@@ -8,8 +8,8 @@ export const Footer = () => {
     return (
         <StyledFooter>
 
-            <FlexWrapper direction={'column'} align={'center'}>
-                <Name style={{margin: '20px 0 0 0 '}}>My social media links</Name>
+            <FlexWrapper style={{width: '50vw'}} direction={'column'} align={'center'}>
+                <Name style={{margin: '10px 0 0 0 '}}>My social media links</Name>
                 <SocialList>
                     <SocialItem>
 
@@ -42,8 +42,8 @@ export const Footer = () => {
                 </SocialList>
 
             </FlexWrapper>
-            <FlexWrapper direction={'column'}>
-                <Name style={{display: 'inline-block', margin: '20px 0 20px 0px'}}>More projects I’ve worked on</Name>
+            <FlexWrapper style={{width: '50vw'}} direction={'column'}>
+                <Name style={{display: 'inline-block', margin: '10px 0 20px 0px'}}>More projects I’ve worked on</Name>
 
                 <SocialItem>
                     <SocialLink>
@@ -64,7 +64,6 @@ export const Footer = () => {
 const StyledFooter = styled.footer`
     display: flex;
     justify-content: space-evenly;
-    align-items: stretch;
     background-color: #6e4f11;
     height: 130px;
     position: relative;
@@ -93,5 +92,7 @@ const SocialLink = styled.a`
 `
 const Copyright = styled.small`
 position: absolute;
-bottom: 0;
+bottom:10px;
+    align-items: center
+
 `

@@ -27,7 +27,7 @@ max-width: 540px;
 `
 
 const Image = styled.img`
-height: 260px;
+height: 35vh;
 width: 100%;
 object-fit: cover;
 

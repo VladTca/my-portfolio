@@ -7,6 +7,7 @@ import {Footer} from "./layout/footer/Footer";
 import {Contact} from "./layout/sections/contacts/Contacts";
 import {Achivments} from "./layout/sections/achivments/Achivments";
 import {Myworks} from "./layout/sections/myworks/Myworks";
+import {Skills} from "./layout/sections/skills/Skills";
 
 
 function App() {
