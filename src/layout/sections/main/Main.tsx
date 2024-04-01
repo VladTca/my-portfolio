@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from "styled-components";
-import {FlexWrapper} from "../../../components/Slider/Flexwrapper";
+import {FlexWrapper} from "../../../components/Flexwrapper";
 import photo from "../../../assets/images/support1.png";
-import {Button} from "../../../components/Slider/Button";
+import {Button} from "../../../components/Button";
 import {Icon} from "../../../components/icon/Icon";
 
 
@@ -25,7 +25,7 @@ export const Main = () => {
             <StyledSection>
                 <fieldset>
                     <legend>About me</legend>
-                    <textarea style={{resize: 'none'}} rows={10} cols={50}>The long barrow was built on land previously inhabited in the Mesolithic period. It consisted of a sub-rectangular earthen tumulus, estimated to have been 15 metres (50 feet) in length, with a chamber built from sarsen megaliths on its eastern end. Both inhumed and cremated human remains were placed within this chamber during the Neolithic period, representing at least nine or ten individuals.</textarea>
+                    <textarea readOnly style={{resize: 'none'}} rows={10} cols={50}>The long barrow was built on land previously inhabited in the Mesolithic period. It consisted of a sub-rectangular earthen tumulus, estimated to have been 15 metres (50 feet) in length, with a chamber built from sarsen megaliths on its eastern end. Both inhumed and cremated human remains were placed within this chamber during the Neolithic period, representing at least nine or ten individuals.</textarea>
                 </fieldset>
                 <div>
                     <StyledDescription>I have a vast experience in the following web technologies:</StyledDescription>
@@ -55,9 +55,8 @@ export const Main = () => {
 };
 
 const StyledMain = styled.main`
-  
     background-color: bisque;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 60px - 130px);
     padding-top: 30px;
     margin-top: 50px;
   

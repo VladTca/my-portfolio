@@ -29,8 +29,8 @@ const StyledHeader=styled.header`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-height: 60px;
- 
+    height: 60px;
+//border-bottom: 1px solid black;
     overflow: hidden;
    
    
