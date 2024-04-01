@@ -24,12 +24,15 @@ export const Achivments = () => {
 };
 
 const StyledAchiv = styled.section`
-    height: calc(100vh - 60px - 130px);
+    box-sizing: border-box;
+    height:100vh;
     background-color: #33f8ff;
     display: flex;
     //flex-direction: row;
     justify-content: space-around;
+    padding-top: 50px;
     //width: 100%;    
+  
    
     
 

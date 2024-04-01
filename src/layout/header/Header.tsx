@@ -27,7 +27,8 @@ const StyledHeader=styled.header`
    margin-bottom: 60px;
     background-color: green;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    
     align-items: center;
     height: 60px;
 //border-bottom: 1px solid black;

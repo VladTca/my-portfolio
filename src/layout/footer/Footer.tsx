@@ -47,7 +47,7 @@ export const Footer = () => {
 
                 <SocialItem>
                     <SocialLink>
-                        <Icon height={'31px'} width={'31px'} viewBox={'0 0 31px 31px'} iconId={'github'}/>
+                        <Icon height={'31px'} width={'31px'} viewBox={'0 0 31px 31px'} iconId={'githubsmall'}/>
                         <Name>@VladTca on github</Name>
                     </SocialLink>
                 </SocialItem>
