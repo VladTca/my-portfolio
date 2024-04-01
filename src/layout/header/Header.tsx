@@ -5,18 +5,18 @@ import {Menu} from "../../components/menu/Menu";
 
 
 const items = [
-    "Home",
-    "Skills",
-    "Projects",
-    "Achievements",
-    "Contacts",
+    {menu:"Home",aKey:'h',href:"#home"},"Home",
+    {menu:"Skills",aKey:'s',href:"#skills"},
+    {menu:"Projects",aKey:'p',href:"#projects"},
+    {menu:"Achievements",aKey:'a',href:"#achievements"},
+    {menu:"Contacts",aKey:'c',href:"#contacts"}
 
 ]
  export const Header = () => {
     return (
         <StyledHeader>
             <Logo />
-            <Menu menuItems={items} />
+            <Menu menuItems={items.menu} />
         </StyledHeader>
     );
 };
