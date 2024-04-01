@@ -9,7 +9,7 @@ import giticon from '../../../assets/images/Git-Icon-1788C 1.png'
 export const Myworks = () => {
     return (
         <StyledWorks>
-            <SectionTitle>
+            <SectionTitle style={{padding: '20px 0 0 0'}}>
                 My Projects
             </SectionTitle>
 
