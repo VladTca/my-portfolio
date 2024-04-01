@@ -7,7 +7,7 @@ import {SliderI} from "../../../components/Slider/SliderI";
 
 export const Achievements = () => {
     return (
-        <StyledAchiv>
+        <StyledAchiv id={'achievements'}>
 
             <FlexWrapper direction={"column"} align={"center"}>
                 <SectionTitle>Achivments</SectionTitle>

@@ -7,7 +7,7 @@ import {Button} from "../../../components/Button";
 
 export const Main = () => {
     return (
-        <StyledMain>
+        <StyledMain id={'home'}>
             <FlexWrapper style={{height: "100%"}} align={"center"} justify={"space-around"} direction={"row"}>
                 <div style={{display: 'flex', flexDirection: 'column',alignItems: 'flex-start'}}>
                     <span>Hi👋, I’m a software developer</span>

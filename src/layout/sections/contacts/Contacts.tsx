@@ -13,7 +13,7 @@ export const Contact = () => {
             <Photo src={photo}/>
             <StyledContacts>
             <SectionTitle>Contact</SectionTitle>
-            <StyledForm id={'contact'}>
+            <StyledForm id={'contacts'}>
                 <label> Name:
                 <Field  placeholder={"Enter your name please:"}/>
                 </label>

@@ -4,8 +4,8 @@ import {Logo} from "../../components/logo/Logo";
 import {Menu} from "../../components/menu/Menu";
 
 
-const items = [
-    {menu:"Home",aKey:'h',href:"#home"},"Home",
+const items:{menu:string,aKey:string,href:string}[] = [
+    {menu:"Home",aKey:'h',href:"#home"},
     {menu:"Skills",aKey:'s',href:"#skills"},
     {menu:"Projects",aKey:'p',href:"#projects"},
     {menu:"Achievements",aKey:'a',href:"#achievements"},
@@ -16,7 +16,7 @@ const items = [
     return (
         <StyledHeader>
             <Logo />
-            <Menu menuItems={items.menu} />
+            <Menu menuItems={items} />
         </StyledHeader>
     );
 };
