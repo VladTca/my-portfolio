@@ -14,29 +14,29 @@ export const Footer = () => {
                     <SocialItem>
 
                         <SocialLink>
-                            <Icon height={'21px'} width={'21px'} viewBox={'0 0 21px 21px'} iconId={'instagram'}/>
-                            <figcaption>Instagram</figcaption>
+                            <Am href='#'> <Icon height={'21px'} width={'21px'} viewBox={'0 0 21px 21px'} iconId={'instagram'}/>
+                            <figcaption>Instagram</figcaption></Am>
                         </SocialLink>
                     </SocialItem>
                     <SocialItem>
 
                         <SocialLink>
-                            <Icon height={'21px'} width={'21px'} viewBox={'0 0 21px 21px'} iconId={'telegram'}/>
-                            <figcaption>Telegram</figcaption>
+                            <Am href='#'><Icon height={'21px'} width={'21px'} viewBox={'0 0 21px 21px'} iconId={'telegram'}/>
+                            <figcaption>Telegram</figcaption></Am>
                         </SocialLink>
                     </SocialItem>
                     <SocialItem>
 
                         <SocialLink>
-                            <Icon height={'21px'} width={'21px'} viewBox={'0 0 21px 21px'} iconId={'vk'}/>
-                            <figcaption>VK</figcaption>
+                            <Am href='#'><Icon height={'21px'} width={'21px'} viewBox={'0 0 21px 21px'} iconId={'vk'}/>
+                            <figcaption>VK</figcaption></Am>
                         </SocialLink>
                     </SocialItem>
                     <SocialItem>
 
                         <SocialLink>
-                            <Icon height={'21px'} width={'21px'} viewBox={'0 0 21px 21px'} iconId={'linkedin'}/>
-                            <figcaption>LinkedIn</figcaption>
+                            <Am href='#'><Icon height={'21px'} width={'21px'} viewBox={'0 0 21px 21px'} iconId={'linkedin'}/>
+                            <figcaption>LinkedIn</figcaption></Am>
                         </SocialLink>
                     </SocialItem>
                 </SocialList>
@@ -48,7 +48,7 @@ export const Footer = () => {
                 <SocialItem>
                     <SocialLink>
                         <Icon height={'31px'} width={'31px'} viewBox={'0 0 31px 31px'} iconId={'githubsmall'}/>
-                        <Name><Am style={{color: '#fff'}} href="https://cryptohub.p.goit.global/"
+                        <Name><Am href="https://cryptohub.p.goit.global/"
                                  target="_blank">@VladTca</Am> on github</Name>
                     </SocialLink>
                 </SocialItem>
@@ -63,7 +63,12 @@ export const Footer = () => {
 
 
 const Am = styled.a`
-
+color: white;
+    &:hover{
+        color: red;
+        transform: scaleX(200%) ;
+    }
+    text-decoration: none;
 `
 
 const StyledFooter = styled.footer`

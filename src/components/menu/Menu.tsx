@@ -24,10 +24,22 @@ const StyledMenu = styled.nav`
         justify-content: center;
         list-style: none;
       margin-right: 50px;
-        
+     
     }
+    
+  li{
+      &:hover{
+          color: red;
+          transform: scaleX(200%) ;
+      }
+  }
+    
     ul a{
-        
+        text-decoration: none;
         color: white;
+        &:hover{
+            color: red;
+            
+        }
     }
 `;

@@ -16,7 +16,7 @@ export const Main = () => {
                     <MainTitle>Design, Coding and Testing.</MainTitle>
                     <StyledDescription>I have experience in web development and I am always looking for new things to
                         learn.</StyledDescription>
-                    <Button>Contact me</Button>
+                    <Button><a style={{textDecoration: 'none'}} href={"#contacts"}>Contact me</a></Button>
                 </div>
                 <div><Photo src={photo}/></div>
             </FlexWrapper>
