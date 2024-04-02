@@ -12,7 +12,7 @@ export const Skills = () => {
                 </fieldset>
                 <div>
                     <StyledDescription>I have a vast experience in the following web technologies:</StyledDescription>
-                    <FlexWrapper style={{flexWrap: 'wrap'}} justify={'space-around'}>
+                    <FlexWrapper wrap={'wrap'} justify={'space-around'}>
                         <figure>
                             <Icon height={'120px'} width={'120px'} viewBox={'0 0 120px 120px'} iconId={'html'}/>
                             <figcaption>HTML</figcaption>
