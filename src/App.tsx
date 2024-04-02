@@ -6,7 +6,7 @@ import {Main} from "./layout/sections/main/Main";
 import {Footer} from "./layout/footer/Footer";
 import {Contact} from "./layout/sections/contacts/Contacts";
 import {Achievements} from "./layout/sections/achivments/Achievements";
-import {Myworks} from "./layout/sections/myworks/Myworks";
+import {Myprojects} from "./layout/sections/myworks/Myprojects";
 import {Skills} from "./layout/sections/skills/Skills";
 
 
@@ -16,7 +16,7 @@ function App() {
             <Header/>
             <Main/>
             <Skills/>
-            <Myworks/>
+            <Myprojects/>
             <Achievements/>
             <Contact/>
             <Footer/>

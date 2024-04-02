@@ -2,11 +2,12 @@ import {SectionTitle} from "../../../components/SectionTitle";
 import {FlexWrapper} from "../../../components/Flexwrapper";
 import styled from "styled-components";
 import React from "react";
-import {Work} from "./work/Work";
-import giticon from '../../../assets/images/Git-Icon-1788C 1.png'
+import {Project} from "./projct/Project";
+import catmorda from '../../../assets/images/catmorda.png'
+import pinguin from '../../../assets/images/pinguin.png'
 
 
-export const Myworks = () => {
+export const Myprojects = () => {
     return (
         <StyledWorks id={'projects'}>
             <SectionTitle style={{padding: '80px 0 0 0'}}>
@@ -15,11 +16,11 @@ export const Myworks = () => {
 
 
             <FlexWrapper justify={"space-around"}>
-                <Work title={"Social Network"} text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit'}
-                      src={giticon}/>
-                <Work title={'Timer'}
-                      text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit  ut labore et dolore magna aliqua Ut enim'}
-                      src={giticon}/>
+                <Project title={"Pinguin"} text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit'}
+                         src={pinguin}/>
+                <Project title={'Catmorda'}
+                         text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit  ut labore et dolore magna aliqua Ut enim'}
+                         src={catmorda}/>
             </FlexWrapper>
 
             <Pagination>
