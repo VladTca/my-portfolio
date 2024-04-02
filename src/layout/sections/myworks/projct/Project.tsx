@@ -32,7 +32,7 @@ const StyledWork = styled.div`
     padding-top: 20px;
     background-color: #ffe869;
     max-width: 540px;
-    width: 100%;
+    width:100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -40,7 +40,7 @@ const StyledWork = styled.div`
 `
 
 const Image = styled.img`
-    height: 40vh;
+    height: 30vh;
     width: 100%;
     //background-size: 130px 68px;
     object-fit: scale-down;

@@ -14,66 +14,70 @@ export const Skills = () => {
                     <StyledDescription>I have a vast experience in the following web technologies:</StyledDescription>
                     <FlexWrapper wrap={'wrap'} justify={'space-around'}>
                         <figure>
-                            <Icon height={'120px'} width={'120px'} viewBox={'0 0 120px 120px'} iconId={'html'}/>
+                            <Icon iconId={'html'}/>
                             <figcaption>HTML</figcaption>
                         </figure>
                         <figure>
-                            <Icon height={'120px'} width={'120px'} viewBox={'0 0 120px 120px'} iconId={'css'}/>
+                            <Icon iconId={'css'}/>
                             <figcaption>CSS</figcaption>
                         </figure>
                         <figure>
-                            <Icon height={'120px'} width={'120px'} viewBox={'0 0 120px 120px'} iconId={'js'}/>
+                            <Icon iconId={'js'}/>
                             <figcaption>JavaScript</figcaption>
                         </figure>
                         <figure>
-                            <Icon height={'120px'} width={'120px'} viewBox={'0 0 120px 120px'} iconId={'ts'}/>
+                            <Icon iconId={'ts'}/>
                             <figcaption>TypeScript</figcaption>
                         </figure>
                         <figure>
-                            <Icon height={'120px'} width={'120px'} viewBox={'0 0 120px 120px'} iconId={'react'}/>
+                            <Icon iconId={'react'}/>
                             <figcaption>React</figcaption>
                         </figure>
 
                         <figure>
-                            <Icon height={'120px'} width={'120px'} viewBox={'0 0 120px 120px'} iconId={'redux'}/>
+                            <Icon iconId={'redux'}/>
                             <figcaption>Redux</figcaption>
                         </figure>
                         <figure>
-                            <Icon height={'120px'} width={'120px'} viewBox={'0 0 120px 120px'}
+                            <Icon viewBox={'0 0 120 120'}
                                   iconId={'styled-components'}/>
                             <figcaption>Styled Components</figcaption>
                         </figure>
                         <figure>
-                            <Icon height={'120px'} width={'120px'} viewBox={'0 0 120px 120px'} iconId={'tailwind'}/>
+                            <Icon iconId={'tailwind'}/>
                             <figcaption>Tailwind</figcaption>
                         </figure>
                         <figure>
-                            <Icon height={'120px'} width={'120px'} viewBox={'0 0 120px 120px'} iconId={'bootstrap'}/>
+                            <Icon iconId={'bootstrap'}/>
                             <figcaption>Bootstrap</figcaption>
                         </figure>
                         <figure>
-                            <Icon height={'120px'} width={'120px'} viewBox={'0 0 120px 120px'} iconId={'sass'}/>
+                            <Icon iconId={'sass'}/>
                             <figcaption>Sass</figcaption>
                         </figure>
                         <figure>
-                            <Icon height={'120px'} width={'120px'} viewBox={'0 0 120px 120px'} iconId={'express'}/>
+                            <Icon iconId={'express'}/>
                             <figcaption>Express</figcaption>
                         </figure>
                         <figure>
-                            <Icon height={'120px'} width={'120px'} viewBox={'0 0 120px 120px'} iconId={'docker'}/>
+                            <Icon iconId={'docker'}/>
                             <figcaption>Docker</figcaption>
                         </figure>
                         <figure>
-                            <Icon height={'120px'} width={'120px'} viewBox={'0 0 120px 120px'} iconId={'jest'}/>
+                            <Icon iconId={'jest'}/>
                             <figcaption>Jest</figcaption>
                         </figure>
                         <figure>
-                            <Icon height={'120px'} width={'120px'} viewBox={'0 0 120px 120px'} iconId={'git'}/>
+                            <Icon iconId={'git'}/>
                             <figcaption>Git</figcaption>
                         </figure>
                         <figure>
-                            <Icon height={'120px'} width={'120px'} viewBox={'0 0 120px 120px'} iconId={'github'}/>
+                            <Icon iconId={'github'}/>
                             <figcaption>GitHub</figcaption>
+                        </figure>
+                        <figure>
+                            <Icon  viewBox={"0 0 256 256"} iconId={'webstorm'}/>
+                            <figcaption>WebStorm</figcaption>
                         </figure>
                     </FlexWrapper>
                 </div>
@@ -91,12 +95,9 @@ const StyledSection = styled.section`
     display: flex;
     width:98%;
     margin-left: 10px;
-    gap:3%;
+    gap: 3%;
     justify-content: space-around;
     align-items: center;
-    
     height: 100vh;
     margin-bottom: 30px;
-
-
 `

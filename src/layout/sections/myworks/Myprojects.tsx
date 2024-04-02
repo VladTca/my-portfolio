@@ -5,6 +5,7 @@ import React from "react";
 import {Project} from "./projct/Project";
 import catmorda from '../../../assets/images/catmorda.png'
 import pinguin from '../../../assets/images/pinguin.png'
+import darkcity from '../../../assets/images/darkcity.png'
 
 
 export const Myprojects = () => {
@@ -21,6 +22,9 @@ export const Myprojects = () => {
                 <Project title={'Catmorda'}
                          text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit  ut labore et dolore magna aliqua Ut enim'}
                          src={catmorda}/>
+                <Project title={'Darkcity'}
+                         text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit  ut labore et dolore magna aliqua Ut enim'}
+                         src={darkcity}/>
             </FlexWrapper>
 
             <Pagination>
