@@ -29,7 +29,7 @@ const StyledMenu = styled.nav`
     
   li{
       &:hover{
-          color: red;
+         
           transform: scaleX(200%) ;
       }
   }
