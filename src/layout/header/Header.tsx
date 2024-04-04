@@ -26,7 +26,7 @@ const StyledHeader=styled.header`
     top: 0;
     width: 100%;
    margin-bottom: 60px;
-    background-color: green;
+    background-color: #343D68;
     display: flex;
     justify-content: space-between;
     

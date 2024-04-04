@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/images/volk.jpg'
+import logo from '../../assets/images/logo.png'
 import styled from "styled-components";
 export const Logo = () => {
     return (

@@ -54,7 +54,7 @@ export const Footer = () => {
                 </SocialItem>
             </FlexWrapper>
 
-            <Copyright>© 2024 Mr. Woolfy, All Rights Reserved.</Copyright>
+            <Copyright>© 2024 Vladimir Tcaciuc, All Rights Reserved.</Copyright>
 
         </StyledFooter>
 
@@ -74,10 +74,13 @@ color: white;
 const StyledFooter = styled.footer`
     display: flex;
     justify-content: space-evenly;
-    background-color: #6e4f11;
+  
     height: 130px;
     position: relative;
-
+    background-color: #343D68;
+    // background-image: url(${require('../../assets/images/wave.svg')});
+    // background-size: cover;
+    
 `
 const Name = styled.span`
 

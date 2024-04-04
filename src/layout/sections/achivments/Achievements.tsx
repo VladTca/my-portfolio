@@ -24,9 +24,9 @@ export const Achievements = () => {
 };
 
 const StyledAchiv = styled.section`
-    box-sizing: border-box;
+  
     height:100vh;
-    background-color: #33f8ff;
+  
     display: flex;
     //flex-direction: row;
     justify-content: space-around;

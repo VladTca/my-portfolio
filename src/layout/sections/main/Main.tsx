@@ -11,7 +11,7 @@ export const Main = () => {
             <FlexWrapper style={{height: "100%"}} align={"center"} justify={"space-around"} direction={"row"}>
                 <div style={{display: 'flex', flexDirection: 'column',alignItems: 'flex-start'}}>
                     <span>Hi👋, I’m a software developer</span>
-                    <NameVT>Mr. Woolfy</NameVT>
+                    <NameVT>Vladimir Tcaciuc</NameVT>
                     <NameVT>ready for</NameVT>
                     <MainTitle>Design, Coding and Testing.</MainTitle>
                     <StyledDescription>I have experience in web development and I am always looking for new things to
@@ -25,9 +25,9 @@ export const Main = () => {
     );
 };
 
-const StyledMain = styled.main`
+const StyledMain = styled.section`
  
-    background-color: bisque;
+   
     height: 100vh;
    
 `
@@ -48,7 +48,7 @@ const MainTitle = styled.h1`
 
 const NameVT = styled.h2`
     font-size: 30px;
-    margin: 0;
+  
 `;
 
 const StyledDescription = styled.p`
