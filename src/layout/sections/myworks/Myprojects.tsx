@@ -38,7 +38,7 @@ export const Myprojects = () => {
 
 const StyledWorks = styled.section`
     
-    background-color: deepskyblue;
+    
     height: 100vh;
 
 

@@ -27,7 +27,7 @@ export const Contact = () => {
 
 const StyledContacts = styled.section`
    height: calc(100vh - 60px - 130px);
-    background-color: darkgoldenrod;
+  
     width: 100%;
 
 
