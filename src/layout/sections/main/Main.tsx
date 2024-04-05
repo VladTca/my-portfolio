@@ -4,7 +4,7 @@ import {FlexWrapper} from "../../../components/Flexwrapper";
 import photo from "../../../assets/images/support1.png";
 import {Button} from "../../../components/Button";
 
-
+// ++
 export const Main = () => {
     return (
         <StyledMain id={'home'}>
