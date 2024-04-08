@@ -95,7 +95,7 @@ const SocialList = styled.ul`
 `
 const SocialItem = styled.li`
     width: 100%;
-    //list-style: none;
+    list-style: none;
 
 `
 const SocialLink = styled.a`
