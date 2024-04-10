@@ -22,7 +22,7 @@ const StyledMenu = styled.nav`
         display: flex;
         gap: 60px;
         justify-content: center;
-        list-style: none;
+     
       margin-right: 50px;
      
     }
